@@ -7,11 +7,15 @@ import { ComponentsComponent } from './components/components.component';
 import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
+import { LoginComponent } from './login/login.component';
+import { DashboaredComponent } from './dashboared/dashboared.component';
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
+    DashboaredComponent
   ],
   imports: [
     BrowserModule,
